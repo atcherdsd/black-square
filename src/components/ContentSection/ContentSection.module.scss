@@ -1,0 +1,16 @@
+@use '../../style/common.scss' as *;
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.square {
+    width: 300px;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: $square-bg-color;
+    margin: 20px;
+}
